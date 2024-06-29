@@ -1,10 +1,8 @@
-import './App.css'
+import { Canvas } from "konva/lib/Canvas";
+import "./App.css";
 
 function App() {
-
-  return (
-   <h1>Canvas Project Intialization </h1>
-  )
+  return <Canvas />;
 }
 
-export default App
+export default App;
